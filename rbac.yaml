@@ -48,6 +48,12 @@ users:
   orgs:
   - DevOps Tribe
   auth_provider: local
+- username: stella@deployhub.com
+  email: stella@deployhub.com
+  role: viewer
+  orgs:
+  - DevOps Tribe
+  auth_provider: local
 roles:
 - name: admin
   description: Full system access
