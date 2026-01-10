@@ -54,6 +54,12 @@ users:
   orgs:
   - DevOps Tribe
   auth_provider: local
+- username: steve2@deployhub.com
+  email: steve2@deployhub.com
+  role: viewer
+  orgs:
+  - DevOps Tribe
+  auth_provider: local
 roles:
 - name: admin
   description: Full system access
