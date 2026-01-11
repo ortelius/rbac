@@ -14,6 +14,9 @@ orgs:
 - name: DevOps Tribe
   display_name: DevOps Tribe
   description: Created for Steve Taylor
+- name: DevOps Tribe 2
+  display_name: DevOps Tribe 2
+  description: Created for Steve Taylor
 users:
 - username: admin
   email: admin@deployhub.com
@@ -65,6 +68,12 @@ users:
   role: viewer
   orgs:
   - DevOps Tribe
+  auth_provider: local
+- username: stella4
+  email: steve4@deployhub.com
+  role: viewer
+  orgs:
+  - DevOps Tribe 2
   auth_provider: local
 roles:
 - name: admin
