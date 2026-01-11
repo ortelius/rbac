@@ -3,7 +3,6 @@ orgs:
   display_name: ACME Corporation
   description: Main enterprise customer
   metadata:
-    owner: alice
     tier: enterprise
   members:
   - username: alice
@@ -24,8 +23,6 @@ orgs:
 - name: DevOps Tribe
   display_name: DevOps Tribe
   description: Created for Steve Taylor
-  metadata:
-    owner: staylor
   members:
   - username: staylor
     role: owner
