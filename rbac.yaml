@@ -26,6 +26,12 @@ orgs:
   members:
   - username: staylor
     role: owner
+- name: DeployHub
+  display_name: DeployHub
+  description: Created for Steve Taylor
+  members:
+  - username: staylor
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
