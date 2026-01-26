@@ -32,6 +32,12 @@ orgs:
   members:
   - username: staylor
     role: owner
+- name: pangarabbit
+  display_name: PangaRabbit
+  description: Created for Sacha Wharton
+  members:
+  - username: sacha.wharton
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
@@ -50,6 +56,9 @@ users:
   auth_provider: service_account
 - username: staylor
   email: steve@deployhub.com
+  auth_provider: local
+- username: sacha.wharton
+  email: sacha@pangarabbit.com
   auth_provider: local
 roles:
 - name: owner
