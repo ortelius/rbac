@@ -47,6 +47,21 @@ pdvd-backend – API and backend service for PDVD.
 pdvd-frontend – Next.js UI for PDVD search and exploration.
 
 
+--- 
+
+## License
+
+Apache License 2.0
+
+### Community
+
+- Website: [https://ortelius.io](https://ortelius.io)
+- GitHub: [https://github.com/ortelius](https://github.com/ortelius)
+- Discord: [https://discord.gg/ortelius](https://discord.gg/ortelius)
+
+Maintained by the Ortelius open-source community.
+
+
 ---
 
 ## Usage
