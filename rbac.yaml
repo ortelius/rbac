@@ -32,6 +32,12 @@ orgs:
   members:
   - username: staylor
     role: owner
+- name: Ortelius
+  display_name: Ortelius
+  description: Created for Steve Taylor
+  members:
+  - username: staylor
+    role: owner    
 - name: FLOCK
   display_name: FLOCK
   description: Created for Steve Taylor
