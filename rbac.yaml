@@ -44,12 +44,16 @@ orgs:
   members:
   - username: staylor
     role: owner
+  - username: tragan
+    role: owner  
 - name: SKYSAT
   display_name: SkySAT
   description: Created for Steve Taylor
   members:
   - username: staylor
     role: owner
+  - username: tragan
+    role: owner      
 - name: pangarabbit
   display_name: PangaRabbit
   description: Created for Sacha Wharton
@@ -78,6 +82,9 @@ users:
 - username: sacha.wharton
   email: sacha@pangarabbit.com
   auth_provider: local
+- username: tragan
+  email: tracy@deployhub.com
+  auth_provider: local 
 roles:
 - name: owner
   description: Organization owner with full access and billing management
