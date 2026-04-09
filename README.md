@@ -1,8 +1,8 @@
-# pdvd-rbac
+# rbac
 
-Role-Based Access Control (RBAC) configuration for the **PDVD** (Platform Dev and Vulnerability Discovery) system within the Ortelius ecosystem.
+Role-Based Access Control (RBAC) configuration for Ortelius.
 
-This repository centralizes RBAC role definitions and permission policies that govern how users and services interact with PDVD APIs and resources.
+This repository centralizes RBAC role definitions and permission policies that govern how users and services interact with Ortelius APIs and resources.
 
 ---
 
@@ -42,9 +42,9 @@ The RBAC model typically includes:
 
 ## Related Projects
 
-pdvd-backend – API and backend service for PDVD.
+ortelius – API and backend service for Ortelius.
 
-pdvd-frontend – Next.js UI for PDVD search and exploration.
+frontend – Next.js UI for Ortelius search and exploration.
 
 
 ---
@@ -54,7 +54,7 @@ pdvd-frontend – Next.js UI for PDVD search and exploration.
 RBAC definitions in this repository can be used to:
 
 1. **Deploy Access Policies**  
-   Apply role definitions to infrastructure or services that enforce access control for the PDVD API.
+   Apply role definitions to infrastructure or services that enforce access control for the Ortelius API.
 
 2. **Generate Documentation**  
    Use tooling to render human-friendly tables of roles and permissions for audit and onboarding.
@@ -70,14 +70,14 @@ Below is a conceptual snippet showing how RBAC roles might be defined (your actu
 
 ```yaml
 roles:
-  - name: pdvd_admin
+  - name: ortelius_admin
     description: Full administrative access
     permissions:
       - "*"
-  - name: pdvd_reader
-    description: Read-only access to PDVD resources
+  - name: ortelius_reader
+    description: Read-only access to Ortelius resources
     permissions:
-      - "pdvd:read:*"
+      - "ortelius:read:*"
 ```
  
 
