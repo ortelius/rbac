@@ -45,6 +45,12 @@ orgs:
   members:
   - username: SteveTaylor
     role: owner
+- name: testorg
+  display_name: TestOrg
+  description: Created for Tisha Taylor
+  members:
+  - username: tisha
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
@@ -60,6 +66,9 @@ users:
   auth_provider: local
 - username: SteveTaylor
   email: steve.taylor@openmakesoftware.com
+  auth_provider: local
+- username: tisha
+  email: notifysupport@deployhub.com
   auth_provider: local
 roles:
 - name: owner
