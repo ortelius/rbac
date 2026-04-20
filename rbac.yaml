@@ -57,6 +57,12 @@ orgs:
   members:
   - username: strider
     role: owner
+- name: theranch
+  display_name: TheRanch
+  description: Created for Strider Taylor
+  members:
+  - username: strider
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
