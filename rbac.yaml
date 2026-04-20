@@ -51,6 +51,12 @@ orgs:
   members:
   - username: tisha
     role: owner
+- name: thebarn
+  display_name: TheBarn
+  description: Created for Strider Taylor
+  members:
+  - username: strider
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
@@ -69,6 +75,9 @@ users:
   auth_provider: local
 - username: tisha
   email: notifysupport@deployhub.com
+  auth_provider: local
+- username: strider
+  email: sbtaylor15@gmail.com
   auth_provider: local
 roles:
 - name: owner
