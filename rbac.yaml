@@ -69,6 +69,12 @@ orgs:
   members:
   - username: jdchen5
     role: owner
+- name: abc limited
+  display_name: ABC Limited
+  description: Created for John Doe
+  members:
+  - username: johndoe
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
@@ -93,6 +99,9 @@ users:
   auth_provider: local
 - username: jdchen5
   email: jdchen5@hotmail.com
+  auth_provider: local
+- username: johndoe
+  email: johndoe@abc.com
   auth_provider: local
 roles:
 - name: owner
