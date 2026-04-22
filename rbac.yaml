@@ -63,6 +63,12 @@ orgs:
   members:
   - username: strider
     role: owner
+- name: blnb
+  display_name: BLNB
+  description: Created for Jing Chen
+  members:
+  - username: jdchen5
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
@@ -84,6 +90,9 @@ users:
   auth_provider: local
 - username: strider
   email: sbtaylor15@gmail.com
+  auth_provider: local
+- username: jdchen5
+  email: jdchen5@hotmail.com
   auth_provider: local
 roles:
 - name: owner
