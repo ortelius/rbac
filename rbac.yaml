@@ -75,6 +75,12 @@ orgs:
   members:
   - username: johndoe
     role: owner
+- name: spectrocloud
+  display_name: Spectrocloud
+  description: Created for Arun Balasubramanyan
+  members:
+  - username: arunb
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
@@ -102,6 +108,9 @@ users:
   auth_provider: local
 - username: johndoe
   email: johndoe@abc.com
+  auth_provider: local
+- username: arunb
+  email: arun.balasubramanyan@spectrocloud.com
   auth_provider: local
 roles:
 - name: owner
