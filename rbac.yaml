@@ -87,6 +87,12 @@ orgs:
   members:
   - username: vishalnvora
     role: owner
+- name: ssc-ict
+  display_name: SSC-ICT
+  description: Created for Michel Schildmeijer
+  members:
+  - username: mnemonic01
+    role: owner
 users:
 - username: admin
   email: admin@deployhub.com
@@ -120,6 +126,9 @@ users:
   auth_provider: local
 - username: vishalnvora
   email: vishalnvora@gmail.com
+  auth_provider: local
+- username: mnemonic01
+  email: mnemonic01@hotmail.com
   auth_provider: local
 roles:
 - name: owner
