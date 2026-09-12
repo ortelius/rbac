@@ -107,6 +107,12 @@ orgs:
   members:
   - username: BastienLup
     role: owner
+- name: seeburger ag
+  display_name: SEEBURGER AG
+  description: Created for Bernd Eckenfels
+  members:
+  - username: ecki
+    role: owner
 users:
 - username: admin
   auth_provider: local
@@ -137,6 +143,8 @@ users:
 - username: fsierraa1387
   auth_provider: local
 - username: BastienLup
+  auth_provider: local
+- username: ecki
   auth_provider: local
 roles:
 - name: owner
