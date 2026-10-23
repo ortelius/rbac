@@ -113,6 +113,12 @@ orgs:
   members:
   - username: ecki
     role: owner
+- name: quickeee
+  display_name: quickeee
+  description: Created for Priyanshu Agrahari
+  members:
+  - username: priyanshu.backend
+    role: owner
 users:
 - username: admin
   auth_provider: local
@@ -145,6 +151,8 @@ users:
 - username: BastienLup
   auth_provider: local
 - username: ecki
+  auth_provider: local
+- username: priyanshu.backend
   auth_provider: local
 roles:
 - name: owner
