@@ -119,6 +119,12 @@ orgs:
   members:
   - username: priyanshu.backend
     role: owner
+- name: rw
+  display_name: RW
+  description: Created for bing huang
+  members:
+  - username: bing.huang
+    role: owner
 users:
 - username: admin
   auth_provider: local
@@ -153,6 +159,8 @@ users:
 - username: ecki
   auth_provider: local
 - username: priyanshu.backend
+  auth_provider: local
+- username: bing.huang
   auth_provider: local
 roles:
 - name: owner
