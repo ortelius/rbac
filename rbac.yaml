@@ -125,6 +125,12 @@ orgs:
   members:
   - username: bing.huang
     role: owner
+- name: uniqueschools
+  display_name: Uniqueschools
+  description: Created for krishna thite
+  members:
+  - username: Krishna Thite
+    role: owner
 users:
 - username: admin
   auth_provider: local
@@ -161,6 +167,8 @@ users:
 - username: priyanshu.backend
   auth_provider: local
 - username: bing.huang
+  auth_provider: local
+- username: Krishna Thite
   auth_provider: local
 roles:
 - name: owner
